@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+@layer utilities{
+  .myfont{
+    font-family: "Outfit", sans-serif;
+  }
+  .font-small{
+    font-weight: 400;
+  }
+  .font-large{
+    font-weight: 700;
+  }
+  .clr-bg-white{
+    background-color:hsl(0,0%,100%);
+  }
+  .clr-bg-gray{
+    background-color:hsl(212,45%,89%);
+  }
+  .clr-lg-blue{
+    color:hsl(220,15%,55%);
+  }
+  .clr-blue{
+    color:hsl(218,44%,22%);
+  }
+}
